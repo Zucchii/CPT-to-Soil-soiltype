@@ -4,7 +4,7 @@ import pandas as pd
 df = pd.read_csv("./data/model_ready/dataset_test.csv")
 
 # Specify the drillhole ID to filter (for example, ID = 5)
-drillhole_id = 861
+drillhole_id = 820
 
 # Filter the rows where the 'ID' column matches the specified drillhole ID
 filtered_df = df[df["ID"] == drillhole_id]

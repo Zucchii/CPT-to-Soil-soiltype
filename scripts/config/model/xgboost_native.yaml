@@ -3,11 +3,11 @@ params:
   device: gpu
   random_state: 42
   objective: multi:softmax
-  alpha: 2.4133070608865714
-  colsample_bytree: 0.5609787475488388
-  gamma: 0.27781388968466764
-  lambda: 0.760101989788682
-  learning_rate: 0.014638772838158683
+  alpha: 0.8031663663020739
+  colsample_bytree: 0.5036186896796232
+  gamma: 0.0017247712662168079
+  lambda: 0.044143392912895964
+  learning_rate: 0.10631757913643672
   max_depth: 3
-  min_child_weight: 0.0016921014576140336
-  subsample: 0.8816091267191309
+  min_child_weight: 0.008507934698082748
+  subsample: 0.7650010975386191

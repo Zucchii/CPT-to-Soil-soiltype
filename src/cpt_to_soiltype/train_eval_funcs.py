@@ -251,3 +251,4 @@ def log_mlflow_metrics_and_model(
         # Log paths as MLflow parameters
         hydra_cfg_path_str = ", ".join(hydra_cfg_paths)
         mlflow.log_param("hydra_config_paths", hydra_cfg_path_str)
+        
